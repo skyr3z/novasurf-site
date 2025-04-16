@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSurf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li onclick="switchTab('home')">Home</li>
+            <li onclick="switchTab('games')">Games</li>
+            <li onclick="switchTab('proxies')">Proxies</li>
+            <li onclick="switchTab('entertainment')">Entertainment</li>
+            <li onclick="switchTab('about')">About</li>
+        </ul>
+    </nav>
+    <div id="main-content">
+        <section id="home" class="tab active">
+            <div class="box glow"><h1>Welcome to NovaSurf</h1><p>Clean. Simple. Yours.</p></div>
+        </section>
+        <section id="games" class="tab">
+            <div class="box glow"><h2>Games</h2><p>Coming soon...</p></div>
+        </section>
+        <section id="proxies" class="tab">
+            <div class="box glow"><h2>Proxies</h2><p>Coming soon...</p></div>
+        </section>
+        <section id="entertainment" class="tab">
+            <div class="box glow"><h2>Entertainment</h2><p>Coming soon...</p></div>
+        </section>
+        <section id="about" class="tab">
+            <div class="box glow"><h2>About</h2><p>Made for you, by you. Stay tuned.</p></div>
+        </section>
+    </div>
+</body>
+</html>
