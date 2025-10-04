@@ -1,1 +1,1 @@
-# skyreznova-site
+# nova-site
